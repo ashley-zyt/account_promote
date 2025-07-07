@@ -1,51 +1,73 @@
-<footer class="bg-gray-800 text-white py-8">
-  <div class="container mx-auto px-5">
-    <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
-      <div>
-        <h3 class="text-xl font-bold mb-4">AccountPromote</h3>
-        <p class="text-gray-400">Helping businesses grow through smart account promotion strategies.</p>
+<footer class="footer ttm-bgcolor-darkgrey widget-footer clearfix">
+  <div class="second-footer">
+      <div class="container">
+          <div class="row">
+              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 widget-area">
+                  <div class="widget widget_text clearfix">
+                      <h3 class="widget-title">About Us</h3>
+                      <div class="textwidget widget-text">
+                          <p>We combine total coverage with local knowledge to offer our clients the most
+                              effective signage solutions and Services.</p>
+                      </div>
+                      <div class="social-icons circle mt-30">
+                          <ul class="list-inline">
+                              <li class="social-facebook"><a class="tooltip-top" target="_blank" href=""
+                                      data-tooltip="Facebook"><i class="fa fa-facebook"></i></a></li>
+                              <li class="social-twitter"><a class="tooltip-top" target="_blank" href=""
+                                      data-tooltip="twitter"><i class="fa fa-twitter"></i></a></li>
+                              <li class="social-instagram"><a class="tooltip-top" target="_blank" href=""
+                                      data-tooltip="Flickr"><i class="fa fa-flickr"></i></a></li>
+                              <li class="social-twitter"><a class="tooltip-top" target="_blank" href=""
+                                      data-tooltip="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+                          </ul>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 widget-area">
+                  <div class="widget widget_nav_menu clearfix">
+                      <h3 class="widget-title">Our Services</h3>
+                      <ul id="menu-footer-service-link" class="menu">
+                          <li><a href="#">Estimate</a></li>
+                          <li><a href="#">Our Clients</a></li>
+                          <li><a href="#">Contact</a></li>
+                          <li><a href="#">Design</a></li>
+                          <li><a href="#">Signs</a></li>
+                          <li><a href="#">Projects</a></li>
+                          <li><a href="#">About Us</a></li>
+                          <li><a href="#">Installation</a></li>
+                      </ul>
+                  </div>
+              </div>
+              <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 widget-area">
+                  <div class="widget widget-timing clearfix">
+                      <h3 class="widget-title">Contact Info</h3>
+                      <p>Get in touch with us for your any kind of inquiry</p>
+                      <ul class="widget_contact_wrapper">
+                          <li><i class="ttm-textcolor-skincolor fa fa-phone"></i>(+01) 123 456 7890</li>
+                          <li><i class="ttm-textcolor-skincolor fa fa-envelope-o"></i><a
+                                  href="mailto:info@example.com">info@example.com</a></li>
+                          <li><i class="ttm-textcolor-skincolor fa fa-map-marker"></i>227 Marion
+                              Street,Columbia</li>
+                      </ul>
+                  </div>
+              </div>
+          </div>
       </div>
-      
-      <div>
-        <h4 class="text-lg font-semibold mb-4">Quick Links</h4>
-        <ul class="space-y-2">
-          <li><%= link_to "Home", root_path, class: "text-gray-400 hover:text-white" %></li>
-          <li><%= link_to "About Us", "#", class: "text-gray-400 hover:text-white" %></li>
-          <li><%= link_to "Services", "#", class: "text-gray-400 hover:text-white" %></li>
-          <li><%= link_to "Contact", "#", class: "text-gray-400 hover:text-white" %></li>
-        </ul>
+  </div>
+  <div class="bottom-footer-text">
+      <div class="container">
+          <div class="row copyright">
+              <div class="col-md-8"><span>2020&nbsp;<a href="#">Vemlo</a>. All Rights Reserved by&nbsp;<a
+                          href="/">Themetechmount</a></span></div>
+              <div class="col-md-4">
+                  <div id="menu-footer-menu" class="d-flex align-items-center justify-content-end">
+                      <ul class="footer-nav-menu">
+                          <li><a href="#">Privacy Policy</a></li>
+                          <li><a href="#">Terms & Conditions</a></li>
+                      </ul>
+                  </div>
+              </div>
+          </div>
       </div>
-      
-      <div>
-        <h4 class="text-lg font-semibold mb-4">Legal</h4>
-        <ul class="space-y-2">
-          <li><%= link_to "Privacy Policy", "#", class: "text-gray-400 hover:text-white" %></li>
-          <li><%= link_to "Terms of Service", "#", class: "text-gray-400 hover:text-white" %></li>
-          <li><%= link_to "Cookie Policy", "#", class: "text-gray-400 hover:text-white" %></li>
-        </ul>
-      </div>
-      
-      <div>
-        <h4 class="text-lg font-semibold mb-4">Connect</h4>
-        <div class="flex space-x-4">
-          <%= link_to "#", class: "text-gray-400 hover:text-white" do %>
-            <i class="fab fa-twitter text-xl"></i>
-          <% end %>
-          <%= link_to "#", class: "text-gray-400 hover:text-white" do %>
-            <i class="fab fa-facebook text-xl"></i>
-          <% end %>
-          <%= link_to "#", class: "text-gray-400 hover:text-white" do %>
-            <i class="fab fa-linkedin text-xl"></i>
-          <% end %>
-          <%= link_to "#", class: "text-gray-400 hover:text-white" do %>
-            <i class="fab fa-instagram text-xl"></i>
-          <% end %>
-        </div>
-      </div>
-    </div>
-    
-    <div class="border-t border-gray-700 mt-8 pt-6 text-center text-gray-400">
-      <p>&copy; <%= Time.current.year %> AccountPromote. All rights reserved.</p>
-    </div>
   </div>
 </footer>

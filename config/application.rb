@@ -23,5 +23,7 @@ module AccountPromote
     #
     # config.time_zone = "Central Time (US & Canada)"
     # config.eager_load_paths << Rails.root.join("extras")
+    config.sass.load_paths << Rails.root.join('node_modules')
+    config.sass.load_paths << Rails.root.join('node_modules/@fortawesome/fontawesome-free/scss')
   end
 end

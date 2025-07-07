@@ -6,18 +6,19 @@
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
-    <%= stylesheet_link_tag "application.tailwind", "data-turbo-track": "reload" %>
-    <%= javascript_include_tag "application", "data-turbo-track": "reload", defer: true %>
-    <%= stylesheet_link_tag "font-awesome", "data-turbo-track": "reload" %>
-
+    <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    <%= javascript_importmap_tags %>
+    <script src="/assets/jquery.min.js"></script>
   </head>
 
   <body>
     <%= render 'layouts/header' %>
     
-    <main class="container mx-auto px-5 py-8 flex-grow">
-      <%= yield %>
-    </main>
+    <body>
+      <div class="page ttm-bgcolor-grey">
+        <%= yield %>
+      </div>
+    </body>
     
     <%= render 'layouts/footer' %>
   </body>
